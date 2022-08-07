@@ -1,0 +1,404 @@
+*{
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    scroll-behavior: smooth;
+}
+:target{
+    scroll-margin-top:35px ;
+}
+header#fixo{
+    top: 0;
+    position: fixed;
+    background-color: rgb(50, 50, 50);
+    color: white;
+    height: 30px;
+    width: 100%;
+}
+div#menu{
+    display: inline-flex;
+}
+div#menu>a>li{
+    color: white;
+    list-style: none;
+}
+div#menu>a{
+    margin: 5px 10px 0px 10px;
+    text-decoration: none;
+}
+div#assinando{
+    display: inline-flex;
+    float: right;
+}
+div#assinando>a>li{
+    color: white;
+    list-style: none;
+    text-align: center;
+    right: 0;
+}
+div#assinando>a{
+    margin: 5px 10px 0px 10px;
+    text-decoration: none;
+}
+div#título{
+    top: 0;
+    width: 100%;
+    position: fixed;
+    margin-top: 30px;
+    text-align: center;
+    background-color: rgb(214, 212, 212);
+    height: 50px;
+}
+div#título>h1{
+    padding: 5px;
+}
+section#esportes{
+    background-color: rgb(5, 0, 77);
+    margin-top: 80px;
+}
+section#esportes>h2{
+    padding: 20px;
+    text-align: center;
+}
+div#sessão1{
+    display: grid;
+    grid-template-areas:'. . .' '. myArea myArea';
+    text-align: center;
+    margin: auto;
+    gap: 10px;
+    max-width: 800px;
+}
+div#sessão1>div#pg1{
+    grid-area: myArea;
+}
+div#sessão1>div#pg1>img{
+    padding: 10px;
+    width: 400px;
+    height: 500px;
+}
+div#sessão1>div#pg1> h2, p{
+    padding: 10px;
+}
+div#sessão1>div#pg2>img{
+    width: 300px;
+    height: 200px;
+}
+div#sessão1>div#pg2> h2, p{
+    padding: 10px;
+}
+div#sessão1>div#pp1>img{
+    width: 300px;
+    height: 200px;
+}
+div#sessão1>div#pp1> h2, p{
+    padding: 10px;
+}
+div#sessão1>div#pp2>img{
+    width: 300px;
+    height: 200px;
+}
+div#sessão1>div#pp2> h2, p{
+    padding: 10px;
+}
+div#sessão1>div#pp3>img{
+    width: 300px;
+    height: 200px;
+}
+div#sessão1>div#pp3> h2, p{
+    padding: 10px;
+}
+div#sessão1>div#pp4>img{
+    width: 300px;
+    height: 200px;
+}
+div#sessão1>div#pp4> h2, p{
+    padding: 10px;
+}
+div#sessão1>div#pp5>img{
+    width: 300px;
+    height: 200px;
+}
+div#sessão1>div#pp5> h2, p{
+    padding: 10px;
+}
+section#internacional{
+    background-color: rgb(0, 94, 128);
+}
+section#internacional>h2{
+    padding: 20px;
+    text-align: center;
+}
+div#sessão2{
+    display: grid;
+    grid-template-areas:'. . .' '. myArea myArea';
+    text-align: center;
+    margin: auto;
+    gap: 10px;
+    max-width: 800px;
+}
+div#sessão2>div#pp2{
+    grid-area: myArea;
+}
+div#sessão2>div#pp2>img{
+    padding: 10px;
+    width: 400px;
+    height: 500px;
+}
+div#sessão2>div#pp2> h2, p{
+    padding: 10px;
+}
+div#sessão2>div#pg1>img{
+    width: 300px;
+    height: 200px;
+}
+div#sessão2>div#pg1> h2, p{
+    padding: 10px;
+}
+div#sessão2>div#pg2>img{
+    width: 300px;
+    height: 200px;
+}
+div#sessão2>div#pg2> h2, p{
+    padding: 10px;
+}
+div#sessão2>div#pp1>img{
+    width: 300px;
+    height: 200px;
+}
+div#sessão2>div#pp1> h2, p{
+    padding: 10px;
+}
+div#sessão2>div#pp2>img{
+    width: 300px;
+    height: 200px;
+}
+div#sessão2>div#pp2> h2, p{
+    padding: 10px;
+}
+div#sessão2>div#pp3>img{
+    width: 300px;
+    height: 200px;
+}
+div#sessão2>div#pp3> h2, p{
+    padding: 10px;
+}
+div#sessão2>div#pp4>img{
+    width: 300px;
+    height: 200px;
+}
+div#sessão2>div#pp4> h2, p{
+    padding: 10px;
+}
+div#sessão2>div#pp5>img{
+    width: 300px;
+    height: 200px;
+}
+div#sessão2>div#pp5> h2, p{
+    padding: 10px;
+}
+section#moda{
+    background-color: rgb(128, 0, 0);
+}
+section#moda>h2{
+    padding: 20px;
+    text-align: center;
+}
+div#sessão3{
+    display: grid;
+    grid-template-areas:'. . .' '. myArea myArea';
+    text-align: center;
+    margin: auto;
+    gap: 10px;
+    max-width: 800px;
+}
+div#sessão3>div#pp2{
+    grid-area: myArea;
+}
+div#sessão3>div#pp2>img{
+    padding: 10px;
+    width: 300px;
+    height: 200px;
+}
+div#sessão3>div#pp2> h2, p{
+    padding: 10px;
+}
+div#sessão3>div#pg1>img{
+    width: 300px;
+    height: 200px;
+}
+div#sessão3>div#pg1> h2, p{
+    padding: 10px;
+}
+div#sessão3>div#pg2>img{
+    width: 300px;
+    height: 200px;
+}
+div#sessão3>div#pg2> h2, p{
+    padding: 10px;
+}
+div#sessão3>div#pp1>img{
+    width: 300px;
+    height: 200px;
+}
+div#sessão3>div#pp1> h2, p{
+    padding: 10px;
+}
+div#sessão3>div#pp3>img{
+    width: 300px;
+    height: 200px;
+}
+div#sessão3>div#pp3> h2, p{
+    padding: 10px;
+}
+div#sessão3>div#pp4>img{
+    width: 300px;
+    height: 200px;
+}
+div#sessão3>div#pp4> h2, p{
+    padding: 10px;
+}
+div#sessão3>div#pp5>img{
+    width: 300px;
+    height: 200px;
+}
+div#sessão3>div#pp5> h2, p{
+    padding: 10px;
+}
+section#culinaria{
+    background-color: rgb(209, 108, 0);
+}
+section#culinaria>h2{
+    padding: 20px;
+    text-align: center;
+}
+div#sessão4{
+    display: grid;
+    grid-template-areas:'. . .' '. myArea myArea';
+    text-align: center;
+    margin: auto;
+    gap: 10px;
+    max-width: 800px;
+}
+div#sessão4>div#pp2{
+    grid-area: myArea;
+}
+div#sessão4>div#pp2>img{
+    padding: 10px;
+    width: 300px;
+    height: 200px;
+}
+div#sessão4>div#pp2> h2, p{
+    padding: 10px;
+}
+div#sessão4>div#pg1>img{
+    width: 300px;
+    height: 200px;
+}
+div#sessão4>div#pg1> h2, p{
+    padding: 10px;
+}
+div#sessão4>div#pg2>img{
+    width: 300px;
+    height: 200px;
+}
+div#sessão4>div#pg2> h2, p{
+    padding: 10px;
+}
+div#sessão4>div#pp1>img{
+    width: 300px;
+    height: 200px;
+}
+div#sessão4>div#pp1> h2, p{
+    padding: 10px;
+}
+div#sessão4>div#pp3>img{
+    width: 300px;
+    height: 200px;
+}
+div#sessão4>div#pp3> h2, p{
+    padding: 10px;
+}
+div#sessão4>div#pp4>img{
+    width: 300px;
+    height: 200px;
+}
+div#sessão4>div#pp4> h2, p{
+    padding: 10px;
+}
+div#sessão4>div#pp5>img{
+    width: 300px;
+    height: 200px;
+}
+div#sessão4>div#pp5> h2, p{
+    padding: 10px;
+}
+section#nacional{
+    background-color: rgb(1, 177, 4);
+}
+section#nacional>h2{
+    padding: 20px;
+}
+div#sessão5{
+    display: grid;
+    grid-template-areas:'. . .' '. myArea myArea';
+    text-align: center;
+    margin: auto;
+    gap: 10px;
+    max-width: 800px;
+}
+div#sessão5>div#pp2{
+    grid-area: myArea;
+}
+div#sessão5>div#pp2>img{
+    padding: 10px;
+    width: 300px;
+    height: 200px;
+}
+div#sessão5>div#pp2> h2, p{
+    padding: 10px;
+}
+div#sessão5>div#pg1>img{
+    width: 300px;
+    height: 200px;
+}
+div#sessão5>div#pg1> h2, p{
+    padding: 10px;
+}
+div#sessão5>div#pg2>img{
+    width: 300px;
+    height: 200px;
+}
+div#sessão5>div#pg2> h2, p{
+    padding: 10px;
+}
+div#sessão5>div#pp1>img{
+    width: 300px;
+    height: 200px;
+}
+div#sessão5>div#pp1> h2, p{
+    padding: 10px;
+}
+div#sessão5>div#pp3>img{
+    width: 300px;
+    height: 200px;
+}
+div#sessão5>div#pp3> h2, p{
+    padding: 10px;
+}
+div#sessão5>div#pp4>img{
+    width: 300px;
+    height: 200px;
+}
+div#sessão5>div#pp4> h2, p{
+    padding: 10px;
+}
+div#sessão5>div#pp5>img{
+    width: 300px;
+    height: 200px;
+}
+div#sessão5>div#pp5> h2, p{
+    padding: 10px;
+}
